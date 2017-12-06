@@ -7,6 +7,7 @@ RUN apk add --no-cache \
 		openssh-client \
 		php7 \
 		php7-curl \
+		php7-dom \
 		php7-json \
 		php7-mbstring \
 		php7-mcrypt \
@@ -14,7 +15,9 @@ RUN apk add --no-cache \
 		php7-openssl \
 		php7-pdo \
 		php7-phar \
+		php7-tokenizer \
 		php7-xml \
+		php7-xmlwriter \
 		php7-zip \
 		php7-zlib \
 		rsync \
