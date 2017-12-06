@@ -15,6 +15,7 @@ RUN apk add --no-cache \
 		php7-openssl \
 		php7-pdo \
 		php7-phar \
+		php7-session \
 		php7-tokenizer \
 		php7-xml \
 		php7-xmlwriter \
