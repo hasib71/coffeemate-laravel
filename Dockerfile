@@ -3,6 +3,7 @@ FROM alpine:3.7
 MAINTAINER himuhasib@gmail.com
 
 RUN apk add --no-cache \
+		bash \
 		nodejs \
 		openssh-client \
 		php7 \
