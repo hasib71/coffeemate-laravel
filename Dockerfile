@@ -12,7 +12,7 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt-get update && apt-get install -y \
         g++ \
         nodejs \
-		openssh-client \
+        openssh-client \
         rsync \
         tar \
         yarn \
